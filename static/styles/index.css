@@ -1,0 +1,43 @@
+/* ! Background */
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333333;
+    color: white;
+}
+
+/* ! Title Bar */
+#title-bar {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+#title-bar span {
+    letter-spacing: 2px;
+}
+
+/* ! Main Panel */
+#main-panel {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-panel {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.single-chart {
+    width: 30vw;
+    height: 300px;
+}
+
